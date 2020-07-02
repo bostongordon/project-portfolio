@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="hero">
+      <nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#projects-section">Projects</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </nav>
+        <div class="welcome">
+          <img class="logo" src="images/logo.png" alt="Boston Gordon Logo">
+          <h1>Boston Gordon</h1>
+          <h2>Design through human language</h2>
+        </div>
+    </section>
+
+    <section class="project" id="projects-section">
+      <div class="2col">
+        <h3>Capstone Project</h3>
+        <p>Description of Project</p>
+        <button>View Case Study</button>
+      </div>
+
+      <div class="2col">
+        <img src="images/BlankPrototype.png" alt="Capstone prototype">
+      </div>
+    </section>
+
+    <section class="project" id="projects-section">
+
+      <div class="2col">
+        <img src="images/FizzPrototype.png" alt="fizz prototype">
+      </div>
+
+      <div class="2col">
+        <h3>Fizz</h3>
+        <p>Cloud Storage for Creatives</p>
+        <button>View Case Study</button>
+      </div>
+    </section>
+
+    <section class="project" id="projects-section">
+      <div class="2col">
+        <h3>BusyBus</h3>
+        <p>Public transit commute solution</p>
+        <button>View Case Study</button>
+      </div>
+
+      <div class="2col">
+        <img src="images/BusyBusPrototype.png" alt="Busy Bus prototype">
+      </div>
+    </section>
+
+    <section class="aboutme" id="about-me-section">
+
+      <div class="2col">
+        <img src="images/Headshot.png" alt="Headshot of Boston Gordon">
+      </div>
+
+      <div class="2col">
+        <h3>About Boston</h3>
+        <p>“I have seen and experienced the frustrations and roadblocks change makers contend with caused by inaccessible technology, limited tools for engagement, and a lack of comprehensive and modern resources.”</p>
+        <button>Learn More</button>
+      </div>
+    </section>
+
+    <footer>
+      <h4>Contact Me</h3>
+      <img src="images/FacebookLogo.png" alt="Facebook Logo">
+      <img src="images/LinkedinLogo.png" alt="Linkedin Logo">
+      <img src="images/GithubLogo.png" alt="Github Logo">
+    </footer>
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+  </body>
+</html>
