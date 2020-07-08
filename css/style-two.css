@@ -7,14 +7,14 @@
   padding: 30px;
 }
 
-h3{
+.study h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 30pt;
+  font-size: 16pt;
   color: black;
   font-weight: bold;
 }
 
-p{
+.study p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   color: black;
