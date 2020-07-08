@@ -113,6 +113,8 @@ footer h3{
 
 
 .logo{
+  display: flex;
+  justify-content: center;
   width: 79px;
 }
 
