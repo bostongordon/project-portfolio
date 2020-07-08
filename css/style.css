@@ -1,6 +1,78 @@
+
+button{
+  background-color: #06BCC1;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.projectcolumn{
+  display: flex;
+}
+
+/*homepage hero*/
+.hero{
+  background-image: url(../images/hero.png);
+  max-height: 767px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding: 30px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  color: white;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34pt;
+  color: white;
+  font-weight: lighter;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+  color: black;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  color: black;
+  font-weight: normal;
+}
+
+div{
+
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  line-height: normal;
+}
+
+.logo{
+  width: 130px;
+  height: 130px;
+}
+
+
 /*nav bar*/
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .overlay {
@@ -54,22 +126,3 @@ body {
 }
 
 /*end nav bar*/
-
-.hero{
-  background-image: url(../images/hero.png);
-  max-height: 767px;
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-
-.welcome{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-}
-
-.logo{
-  width: 139px;
-  height: 139px;
-}
