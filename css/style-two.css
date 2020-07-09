@@ -15,6 +15,18 @@
   padding-bottom: 13px;
 }
 
+.column h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+.column p {
+  width: 60%;
+  padding-bottom: 24px;
+}
 
 .study h3{
   font-family: 'Montserrat', sans-serif;
@@ -63,6 +75,31 @@ div {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.column h3 {
+
+}
+
+.singlecolumn p {
+  width: 60%;
+  padding-bottom: 24px;
+}
+
+.singlecolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 
 .fizz-desktop{
   width: 288px;
