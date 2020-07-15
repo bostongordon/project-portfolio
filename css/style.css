@@ -3,6 +3,12 @@
   width: 45%;
 }
 
+.biography {
+  justify-content: center;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 /*About me button*/
 .about-button{
   background-color: #06BCC1;
@@ -731,8 +737,8 @@ span{
     font-size: 24px;
   }
   .button{
-    padding: 16px 48px;
-    font-size: 22px;
+    padding: 24px 48px;
+    font-size: 14px;
 
   }
   .cap-image{
@@ -756,7 +762,7 @@ span{
   }
   .about-button{
     padding: 16px 48px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .headshot {
     height: 475px;

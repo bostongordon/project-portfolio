@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -9,6 +10,90 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
+    <section class="hero">
+      <nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#projects-section">Projects</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </nav>
+        <div class="welcome">
+          <a class= "logo" href="index.html">
+           <img alt="Boston Gordon Logo" src="images/logo.png" width=55">
+         </a>
+          <h1>Boston Gordon</h1>
+          <h2>Design through human language</h2>
+        </div>
+    </section>
 
+    <section class="biography" id="biography-intro">
+      <div class="projectcolumn">
+        <img class="headshot" src="images/Headshot.png" alt="Headshot of Boston Gordon">
+        <h3>My name is Boston Gordon and I’m a UI/UX Designer based out of Philadelphia. </h3>
+      </div>
+      </section>
+      <section class="biography" id="bio-paragraph">
+      <div class="projectcolumn">
+        <p>I didn't arrive at design in a linear fashion. I came to design as a poet and with years of experience as a non-profit project manager. I see visual design and poetry as aesthetically aligned in many ways, and when I founded my own poetry organization I started creating materials and tools with a language inspired visual design. In writing I have always aimed to create art that is accessible, relatable, authentic, and engaged with cultural and social conversations of the moment. As a designer I think about how branding is like bona fide free verse, typography is like the expertly chosen metaphor, and how just like a caesura in poetry, visual design uses space to speak deeply beyond the obvious. What you feel in the experience of an open space you can hear in a purposeful and surprising silence.</p>
+      </div>
+      </section>
+      <section class="biography" id="bio-quote">
+      <div class="projectcolumn">
+        <h3>I have seen and experienced the frustrations and roadblocks direct non profits contend with caused by inaccessible technology, limited tools for engagement, and a lack of comprehensive and modern resources.</h3>
+      </div>
+      </section>
+      <section class="biography" id="bio-prargraph-two">
+      <div class="projectcolumn">
+        <p>For years I worked to make the world a more equitable place by lifting up the work of community-oriented non profits. I have seen and experienced the frustrations and roadblocks direct non profits contend with caused by inaccessible technology, limited tools for engagement, and a lack of comprehensive and modern resources. I can see the ways that people who are trying to do important work cannot achieve that work. These are the sort of problems I want to solve through design: quandaries that are complex, eclectic, and seek to address equity and access in order to sustain a just and socially responsible world.</p>
+      </div>
+      </section>
+      <section class="biography" id="bio-quote-two">
+      <div class="projectcolumn">
+        <h3>While thinking about design this way I used my apprenticeship in UX/UI Design to learn to create authentic and accessible designs that cater to the needs of the moment.</h3>
+      </div>
+      </section>
+      <section class="biography" id="bio-paragraph-three">
+      <div class="projectcolumn">
+        <p>While thinking about design this way I used my apprenticeship in UX/UI Design to learn to create authentic and accessible designs that cater to the needs of the moment. Design as a social impact, design that can be political. I believe that social problems can be transformed by harnessing the energy of a protest sign into a clean and accessibly designed tool for all. True to my poetry roots I believe that human language is integral to design, and that it allows users to relate to and fully engage with the product. If the product doesn't speak the language of personhood, then is it really a design that works for the people in our communities? I want to design in a way that when we speak to people through design they can feel in dialogue with the product.
+
+While I sketch out ideas, play with language, and dream of a better future for our world I also like to kick back and write terribly goofy songs on the banjo and work at perfecting the world’s best hash browns. If you want to talk about how language can transform visual design or you want my secret recipe contact me.</p>
+      </div>
+      </section>
+    <footer>
+
+      <div class="contact">
+        <h3>Contact Me</h3>
+      </div>
+      <div class="icons">
+        <a class= "icon" href="mailto:bostongordon01@gmail.com">
+         <img alt="Email Icon" src="images/email.png" width=24">
+       </a>
+       <a class= "icon" href="http://www.facebook.com/bostn.gordon">
+        <img alt="Facebook Logo" src="images/Facebooklogo.png" width=24">
+      </a>
+      <a class= "icon" href="http://www.linkedin.com/in/bostongordon">
+       <img alt="Linkedin Logo" src="images/LinkedinLogo.png" width=24">
+     </a>
+     <a class= "icon" href="http://www.github.com/bostongordon">
+      <img alt="Github Logo" src="images/GithubLogo.png" width=24">
+    </a>
+  </div>
+
+    </footer>
+
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
   </body>
 </html>
