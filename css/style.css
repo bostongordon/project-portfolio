@@ -411,10 +411,6 @@ div {
   width: 288px;
 }
 
-.icon{
-  width: 24px;
-}
-
 .welcome{
   display: flex;
   flex-direction: column;
@@ -532,8 +528,276 @@ span{
   .project{
     flex-direction: row;
   }
+
+  .span {
+    width: 45px;
+  }
+
+  .welcome h1{
+    font-size: 64px;
+  }
+
+  h2{
+    font-size: 36px;
+  }
+
+  h5{
+    font-size: 34px;
+  }
+
+  h6{
+    font-size: 28px;
+  }
+
+.singlecolumn{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.column {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+  .singlecolumn h3{
+    font-size: 34px;
+  }
+
+  .column h3{
+    font-size: 34px;
+  }
+
+  .prototype h3{
+    font-size: 34px;
+  }
+
+  .prototype p{
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .singlecolumn p{
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .column p{
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .project h3{
+    font-size: 34px;
+  }
+  .project p{
+    font-size: 28px;
+  }
+  .button{
+    padding: 16px 48px;
+    font-size: 22px;
+
+  }
+  .cap-image{
+    height: 650px;
+  }
+  .projectcolumn{
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: center;
+  }
+  .logo {
+    width: 139px;
+  }
+
+  .aboutme h3{
+    font-size: 34px;
+  }
+  .aboutme p{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .about-button{
+    padding: 16px 48px;
+    font-size: 22px;
+  }
+  .headshot {
+    height: 475px;
+  }
+  footer h3{
+    font-size: 34px;
+  }
+  .icon{
+    height: 80px;
+    width: 80px;
+  }
+
+  .fizz-desktop{
+    width: 732px;
+  }
+
+  .chart{
+    width: 732px;
+  }
+
+  .compete{
+    width: 732px;
+  }
+
+  .personas{
+    width: 732px;
+  }
+
+  .flow{
+    width: 732px;
+  }
+
+  .wireframe{
+    width: 732px;
+  }
+
+  .brand{
+    width: 732px;
+  }
+
+  .screens{
+    width: 732px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .project{
+    flex-direction: row;
+  }
 
+  .span {
+    width: 45px;
+  }
+
+  .welcome h1{
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h5{
+    font-size: 30px;
+  }
+
+  h6{
+    font-size: 24px;
+  }
+
+.singlecolumn{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.column {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+  .singlecolumn h3{
+    font-size: 30px;
+  }
+
+  .column h3{
+    font-size: 30px;
+  }
+
+  .prototype h3{
+    font-size: 30px;
+  }
+
+  .prototype p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .singlecolumn p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .column p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .project h3{
+    font-size: 30px;
+  }
+  .project p{
+    font-size: 24px;
+  }
+  .button{
+    padding: 16px 48px;
+    font-size: 22px;
+
+  }
+  .cap-image{
+    height: 650px;
+  }
+  .projectcolumn{
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: center;
+  }
+  .logo {
+    width: 139px;
+  }
+
+  .aboutme h3{
+    font-size: 30px;
+  }
+  .aboutme p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .about-button{
+    padding: 16px 48px;
+    font-size: 22px;
+  }
+  .headshot {
+    height: 475px;
+  }
+  footer h3{
+    font-size: 30px;
+  }
+  .icon{
+    height: 80px;
+    width: 80px;
+  }
+
+  .fizz-desktop{
+    width: 700px;
+  }
+
+  .chart{
+    width: 700px;
+  }
+
+  .compete{
+    width: 700px;
+  }
+
+  .personas{
+    width: 700px;
+  }
+
+  .flow{
+    width: 700px;
+  }
+
+  .wireframe{
+    width: 700px;
+  }
+
+  .brand{
+    width: 700px;
+  }
+
+  .screens{
+    width: 700px;
+  }
 }
