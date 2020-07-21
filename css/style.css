@@ -9,6 +9,19 @@
   padding-right: 48px;
 }
 
+.biography h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-bottom: 13px;
+}
+
+.biography p{
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 13px;
+  line-height: 18px;
+}
+
 /*About me button*/
 .about-button{
   background-color: #06BCC1;
@@ -172,7 +185,7 @@ h3{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 65px;
+  padding-top: 20px;
 }
 
 .projectcolumn p{
@@ -493,16 +506,6 @@ body {
   font-size: 60px;
 }
 
-/*project home page section*/
-
-.project{
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
-}
-
 
 .headshot{
   height: 137px;
@@ -765,7 +768,7 @@ span{
     font-size: 18px;
   }
   .headshot {
-    height: 475px;
+    height: 300px;
   }
   footer h3{
     font-size: 30px;
