@@ -626,12 +626,6 @@ span{
     width: 139px;
   }
 
-  div {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 128px;
-    color: black;
-    font-weight: normal;
-  }
 
   .biography h3{
     font-size: 34px;
@@ -639,6 +633,13 @@ span{
 
   .biography p{
     font-size: 28px;
+}
+
+div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: black;
+  font-weight: normal;
 }
 
   .aboutme h3{
