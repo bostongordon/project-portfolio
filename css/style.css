@@ -621,9 +621,16 @@ span{
     padding-left: 100px;
     justify-content: center;
   }
-  
+
   .logo {
     width: 139px;
+  }
+
+  div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 128px;
+    color: black;
+    font-weight: normal;
   }
 
   .biography h3{
