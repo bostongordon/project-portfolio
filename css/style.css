@@ -538,6 +538,15 @@ span{
     flex-direction: row;
   }
 
+  .biography h3{
+    font-size: 34px;
+  }
+
+  .biography p {
+    font-size: 28px;
+}
+
+
   .span {
     width: 45px;
   }
@@ -622,9 +631,6 @@ span{
 
   .biography p {
     font-size: 28px;
-    font-family: "Open Sans", sans-serif;
-    padding-bottom: 13px;
-    line-height: 18px;
 }
 
   .aboutme h3{
