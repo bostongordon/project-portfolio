@@ -633,6 +633,7 @@ span{
 
   .biography p{
     font-size: 28px;
+    line-height: 32px;
 }
 
 div {
@@ -640,6 +641,7 @@ div {
   font-size: 28px;
   color: black;
   font-weight: normal;
+  line-height: 32px;
 }
 
   .aboutme h3{
