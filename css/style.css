@@ -36,6 +36,25 @@
   text-decoration: none;
 }
 
+.resume-button{
+  background-color: #06BCC1;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.contact-two{
+padding-left: 350px;
+padding-bottom: 40px;
+padding-top: 30px;
+}
+
 .aboutme{
   display: flex;
   flex-direction: column;
@@ -125,6 +144,7 @@ footer{
   align-items: center;
   line-height: normal;
   background-color: #A8E8E9;
+  padding-bottom: 20px;
 }
 
 footer h3{
@@ -138,6 +158,7 @@ h1{
   font-size: 34px;
   color: white;
   font-weight: bold;
+  justify-content: center;
 }
 
 h2{
@@ -185,7 +206,7 @@ h3{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 20px;
+  padding-top: 75px;
 }
 
 .projectcolumn p{
@@ -215,6 +236,7 @@ p{
   justify-content:center;
   align-items: center;
   line-height: normal;
+  padding-bottom: 40px;
 }
 
 /*nav bar*/
@@ -533,6 +555,152 @@ span{
 
 /*end nav bar*/
 
+@media screen and (min-width: 768px) {
+  .project{
+    flex-direction: row;
+  }
+
+  .span {
+    width: 45px;
+  }
+
+  .welcome h1{
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h5{
+    font-size: 30px;
+  }
+
+  h6{
+    font-size: 24px;
+  }
+
+.singlecolumn{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.column {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+  .singlecolumn h3{
+    font-size: 30px;
+  }
+
+  .column h3{
+    font-size: 30px;
+  }
+
+  .prototype h3{
+    font-size: 30px;
+  }
+
+  .prototype p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .singlecolumn p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .column p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .project h3{
+    font-size: 30px;
+  }
+  .project p{
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+  .button{
+    padding: 24px 30px;
+    font-size: 24px;
+
+  }
+  .cap-image{
+    height: 400px;
+  }
+  .projectcolumn{
+    padding-right: 70px;
+    padding-left: 70px;
+    justify-content: center;
+  }
+  .logo {
+    width: 139px;
+  }
+
+  .aboutme h3{
+    font-size: 30px;
+  }
+  .aboutme p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .about-button{
+    padding: 16px 48px;
+    font-size: 24px;
+  }
+
+  .resume-button{
+    padding: 16px 48px;
+    font-size: 24px;
+  }
+
+  .headshot {
+    height: 250px;
+  }
+  footer h3{
+    font-size: 30px;
+  }
+  .icon{
+    height: 80px;
+    width: 80px;
+  }
+
+  .fizz-desktop{
+    width: 700px;
+  }
+
+  .chart{
+    width: 700px;
+  }
+
+  .compete{
+    width: 700px;
+  }
+
+  .personas{
+    width: 700px;
+  }
+
+  .flow{
+    width: 700px;
+  }
+
+  .wireframe{
+    width: 700px;
+  }
+
+  .brand{
+    width: 700px;
+  }
+
+  .screens{
+    width: 700px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .project{
     flex-direction: row;
@@ -611,14 +779,18 @@ span{
   }
   .button {
     padding: 16px 48px;
-    font-size: 22px;
+    font-size: 24px;
   }
+
+  a:hover {
+  background-color: #E7994B;
+}
   .cap-image{
     height: 650px;
   }
   .projectcolumn{
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
     justify-content: center;
   }
 
@@ -650,11 +822,18 @@ div {
   .aboutme p{
     font-size: 28px;
     line-height: 32px;
+    padding-bottom: 40px;
   }
   .about-button{
     padding: 16px 48px;
-    font-size: 22px;
+    font-size: 24px;
   }
+
+  .resume-button{
+    padding: 16px 48px;
+    font-size: 24px;
+  }
+
   .headshot {
     height: 475px;
   }
@@ -696,144 +875,5 @@ div {
 
   .screens{
     width: 732px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .project{
-    flex-direction: row;
-  }
-
-  .span {
-    width: 45px;
-  }
-
-  .welcome h1{
-    font-size: 60px;
-  }
-
-  h2{
-    font-size: 30px;
-  }
-
-  h5{
-    font-size: 30px;
-  }
-
-  h6{
-    font-size: 24px;
-  }
-
-.singlecolumn{
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.column {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-  .singlecolumn h3{
-    font-size: 30px;
-  }
-
-  .column h3{
-    font-size: 30px;
-  }
-
-  .prototype h3{
-    font-size: 30px;
-  }
-
-  .prototype p{
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .singlecolumn p{
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .column p{
-    font-size: 24px;
-    line-height: 30px;
-  }
-  .project h3{
-    font-size: 30px;
-  }
-  .project p{
-    font-size: 24px;
-  }
-  .button{
-    padding: 24px 48px;
-    font-size: 14px;
-
-  }
-  .cap-image{
-    height: 650px;
-  }
-  .projectcolumn{
-    padding-right: 100px;
-    padding-left: 100px;
-    justify-content: center;
-  }
-  .logo {
-    width: 139px;
-  }
-
-  .aboutme h3{
-    font-size: 30px;
-  }
-  .aboutme p{
-    font-size: 24px;
-    line-height: 30px;
-  }
-  .about-button{
-    padding: 16px 48px;
-    font-size: 18px;
-  }
-  .headshot {
-    height: 300px;
-  }
-  footer h3{
-    font-size: 30px;
-  }
-  .icon{
-    height: 80px;
-    width: 80px;
-  }
-
-  .fizz-desktop{
-    width: 700px;
-  }
-
-  .chart{
-    width: 700px;
-  }
-
-  .compete{
-    width: 700px;
-  }
-
-  .personas{
-    width: 700px;
-  }
-
-  .flow{
-    width: 700px;
-  }
-
-  .wireframe{
-    width: 700px;
-  }
-
-  .brand{
-    width: 700px;
-  }
-
-  .screens{
-    width: 700px;
   }
 }
