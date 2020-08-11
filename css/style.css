@@ -103,7 +103,7 @@ body{
 
 /*capstone project image formatting*/
 .cap-image{
-  height: 250px;
+  height: 200px;
   padding-bottom: 70px;
 }
 
@@ -630,7 +630,7 @@ span{
 
   }
   .cap-image{
-    height: 400px;
+    height: 300px;
   }
   .projectcolumn{
     padding-right: 70px;
@@ -787,7 +787,7 @@ span{
   background-color: #E7994B;
 }
   .cap-image{
-    height: 650px;
+    height: 500px;
   }
   .projectcolumn{
     padding-right: 70px;
