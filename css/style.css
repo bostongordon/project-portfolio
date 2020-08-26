@@ -105,7 +105,12 @@ body{
 
 /*capstone project image formatting*/
 .cap-image{
-  height: 200px;
+  height: 175px;
+  padding-bottom: 70px;
+}
+
+.cap-image-one{
+  width: 150px;
   padding-bottom: 70px;
 }
 
@@ -113,7 +118,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
 }
 
 /*column in projects*/
@@ -350,7 +355,7 @@ span{
   flex-direction: column;
   align-items: center;
   padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 10px;
 }
 
 .prototype h3 {
@@ -432,6 +437,10 @@ div {
 
 .compete{
   width: 193px;
+}
+
+.whist {
+  width: 100px;
 }
 
 .personas{
@@ -633,11 +642,18 @@ span{
   .button{
     padding: 24px 30px;
     font-size: 24px;
+  }
 
-  }
+
   .cap-image{
-    height: 300px;
+    height: 175px;
   }
+
+  .cap-image-one{
+    width: 250px;
+    padding-bottom: 70px;
+  }
+
   .projectcolumn{
     padding-right: 70px;
     padding-left: 70px;
@@ -685,6 +701,10 @@ span{
 
   .compete{
     width: 700px;
+  }
+
+  .whist {
+    width: 300px;
   }
 
   .personas{
@@ -793,8 +813,9 @@ span{
   background-color: #E7994B;
 }
   .cap-image{
-    height: 500px;
+    height: 350px;
   }
+
   .projectcolumn{
     padding-right: 70px;
     padding-left: 70px;
@@ -842,7 +863,7 @@ div {
   }
 
   .headshot {
-    height: 475px;
+    height: 300px;
   }
   footer h3{
     font-size: 34px;
@@ -864,6 +885,10 @@ div {
     width: 732px;
   }
 
+  .whist {
+    width: 300px;
+  }
+
   .personas{
     width: 732px;
   }
@@ -877,7 +902,7 @@ div {
   }
 
   .brand{
-    width: 732px;
+    width: 650px;
   }
 
   .screens{
