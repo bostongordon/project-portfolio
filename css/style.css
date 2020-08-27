@@ -9,17 +9,36 @@
   padding-right: 48px;
 }
 
-.biography h3 {
+.biocolumn {
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+.biocolumn h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-bottom: 13px;
+  line-height: 150%;
+}
+
+.biocolumn p{
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 13px;
+  line-height: 150%;
+}
+
+.footer h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   padding-bottom: 13px;
 }
 
-.biography p{
+.footer h4 {
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  font-family: "Open Sans", sans-serif;
   padding-bottom: 13px;
-  line-height: 150%;
 }
 
 /*About me button*/
@@ -390,6 +409,18 @@ span{
 
 }
 
+.footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-bottom: 13px;
+}
+
+.footer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-bottom: 13px;
+}
+
 .singlecolumn h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -618,6 +649,18 @@ body {
     flex-direction: row;
   }
 
+  .footer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding-bottom: 13px;
+  }
+
+  .footer h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+
   .span {
     width: 45px;
   }
@@ -669,6 +712,24 @@ body {
   .singlecolumn p{
     font-size: 22px;
     line-height: 150%;
+  }
+
+  .biocolumn h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding-bottom: 13px;
+    line-height: 150%;
+  }
+
+  .biocolumn p{
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 13px;
+    line-height: 150%;
+  }
+
+  .biocolumn {
+    padding-left: 40px;
   }
 
   .column p{
@@ -788,9 +849,6 @@ body {
     flex-direction: row;
   }
 
-
-
-
   .span {
     width: 45px;
   }
@@ -845,6 +903,24 @@ body {
   .prototype p{
     font-size: 28px;
     line-height: 150%;
+  }
+
+  .biocolumn h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding-bottom: 13px;
+    line-height: 150%;
+  }
+
+  .biocolumn p{
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 13px;
+    line-height: 150%;
+  }
+
+  .biocolumn {
+    padding-left: 40px;
   }
 
   .singlecolumn p{
