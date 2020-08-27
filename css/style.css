@@ -159,6 +159,7 @@ body{
   font-size: 12px;
   width: 70%;
   padding-top: 10px;
+  padding-bottom: 20px;
   line-height: 150%;
 }
 
@@ -215,7 +216,7 @@ h3{
   padding: 30px;
 }
 
-/*whistl hero*/
+/*whistl hero
 .hero-whistl{
   background-image: url(../images/WhistlHeroTwo.png);
   background-size: cover;
@@ -223,6 +224,8 @@ h3{
   background-repeat:no-repeat;
   padding: 30px;
 }
+
+
 
 /*social media icons*/
 .icon{
@@ -232,12 +235,18 @@ h3{
   justify-content: center;
 }
 
+.icons{
+  text-align: center;
+}
+
 .logo{
   width: 79px;
   padding-bottom: 13px;
 }
 
-
+.whistl-hero {
+  width: 100%;
+}
 
 .projectcolumn{
   display: flex;
@@ -356,6 +365,7 @@ body {
 span{
   color: #06BCC1;
   position: fixed;
+  padding: 10px;
 }
 
 
@@ -613,7 +623,7 @@ body {
   }
 
   .welcome h1{
-    font-size: 60px;
+    font-size: 48px;
   }
 
   h2{
@@ -703,7 +713,7 @@ body {
   }
 
   .logo {
-    width: 139px;
+    width: 100px;
   }
 
   .aboutme h3{
@@ -786,7 +796,7 @@ body {
   }
 
   .welcome h1{
-    font-size: 64px;
+    font-size: 48px;
   }
 
   h2{
@@ -872,7 +882,7 @@ body {
   }
 
   .logo {
-    width: 139px;
+    width: 100px;
   }
 
 
