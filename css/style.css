@@ -3,6 +3,34 @@
   width: 45%;
 }
 
+.column h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.columntwo h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.prototype h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  line-height: 150%;
+  text-align: center;
+}
+
+
 .biography {
   justify-content: center;
   padding-left: 48px;
@@ -483,6 +511,8 @@ span{
   padding-bottom: 13px;
 }
 
+
+
 div {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -649,6 +679,33 @@ body {
     flex-direction: row;
   }
 
+  .column h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .columntwo h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .prototype h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    line-height: 150%;
+    text-align: center;
+  }
+
   .footer h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
@@ -673,9 +730,7 @@ body {
     font-size: 30px;
   }
 
-  h5{
-    font-size: 30px;
-  }
+
 
   h6{
     font-size: 24px;
@@ -861,9 +916,6 @@ body {
     font-size: 36px;
   }
 
-  h5{
-    font-size: 34px;
-  }
 
   h6{
     font-size: 28px;
